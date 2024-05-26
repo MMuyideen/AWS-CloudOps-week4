@@ -1,2 +1,43 @@
-./Terraform/modules/key/ToDo-App
-./Terraform/modules/key/ToDo-App.pub
+
+# Editor files #
+################
+*.sublime-project
+*.sublime-workspace
+*.vscode
+
+# Env files #
+#############
+.env
+.env.*
+
+# Python #
+##########
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Flask stuff #
+################
+instance/
+.webassets-cache
+
+# Terraform #
+#############
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+.hcl
+kubeconfig
+
+# Kubernetes #
+#############
+kubernetes/
+# Misc #
+########
+.vscode/
+.idea/Terraform/.terraform/providers/registry.terraform.io/hashicorp/aws/5.51.1/windows_386/terraform-provider-aws_v5.51.1_x5.exe
+
+
+*.pub
+ToDo-App
+ToDo-App.pub
