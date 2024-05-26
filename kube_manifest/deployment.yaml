@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: deen-todo
-        image: fullbloodprince/deen-todo:build-18
+        image: fullbloodprince/deen-todo:build-20
         ports:
         - containerPort: 8000 #5000
