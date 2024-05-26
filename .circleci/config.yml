@@ -30,6 +30,7 @@ jobs:
             TAG=$CIRCLE_BUILD_NUM
             ((TAG--))
             git clone https://github.com/MMuyideen/aws-week4-kubemanifest.git
+            cd aws-week4-kubemanifest
             git config --global user.email "dejimorenigbade@gmail.com"
             git config --global user.name "Muyideen"
             echo $TAG
