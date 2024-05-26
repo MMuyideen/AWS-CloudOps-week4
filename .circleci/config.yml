@@ -32,7 +32,6 @@ jobs:
             git clone https://github.com/MMuyideen/AWS-CloudOps-week4.git
             git config --global user.email "dejimorenigbade@gmail.com"
             git config --global user.name "Muyideen"
-            cd kube_manifest
             echo $TAG
             sed -i "s/build-.*/build-$TAG/g" kube_manifest/deployment.yaml
             cat manifest/deployment.yaml
