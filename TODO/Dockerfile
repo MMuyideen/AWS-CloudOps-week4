@@ -11,6 +11,8 @@ RUN pip install -r requirements.txt
 # Copy the application code
 COPY . .
 
+RUN chmod +x manage.py
+
 # Run Django migrations
 RUN ./manage.py makemigrations
 RUN ./manage.py migrate
