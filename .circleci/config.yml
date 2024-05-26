@@ -34,7 +34,7 @@ jobs:
             git config --global user.name "Muyideen"
             cd kube_manifest
             echo $TAG
-            sed -i "s/build-.*/build-$TAG/g" manifest/deployment.yaml
+            sed -i "s/build-.*/build-$TAG/g" kube_manifest/deployment.yaml
             cat manifest/deployment.yaml
             git add .
             git commit -m "new build with imgTag build-$TAG"
