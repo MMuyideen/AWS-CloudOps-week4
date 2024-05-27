@@ -14,3 +14,5 @@ aws dynamodb create-table \
   --attribute-definitions AttributeName=LockID,AttributeType=S \
   --key-schema AttributeName=LockID,KeyType=HASH\
   --billing-mode PAY_PER_REQUEST \
+
+aws eks update-kubeconfig --region us-east-1 --name deen-ToDo-App

@@ -47,4 +47,3 @@ workflows:
           requires:
             - build_and_push
 
-# placeholder 23
