@@ -409,11 +409,11 @@ section {
 }
 
 .github-link a {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 40px;
+  color: #2c333a;
   text-align: center;
-  margin-top: 20px;
-  color: #333;
-  text-decoration: none;
-  font-weight: bold;
 }
 
 .image-container img {
