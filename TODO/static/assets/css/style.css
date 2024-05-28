@@ -538,4 +538,25 @@ section {
     visibility: hidden;
   }
 }
+/* ... (other CSS styles) ... */
+
+.github-link {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.github-link a {
+  color: #333;
+  text-decoration: none;
+}
+
+.image-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
 /*# sourceMappingURL=style.css.map */
