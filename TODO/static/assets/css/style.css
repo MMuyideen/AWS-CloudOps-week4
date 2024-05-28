@@ -408,6 +408,22 @@ section {
   text-align: center;
 }
 
+.github-link a {
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.image-container img {
+  color: #333;
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+
+}
+
 .overlay {
   background-color: rgba(99, 99, 99, 0.2);
   height: 100%;
@@ -538,25 +554,5 @@ section {
     visibility: hidden;
   }
 }
-/* ... (other CSS styles) ... */
 
-.github-link {
-  text-align: center;
-  margin-top: 10px;
-}
-
-.github-link a {
-  color: #333;
-  text-decoration: none;
-}
-
-.image-container {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.image-container img {
-  max-width: 100%;
-  height: auto;
-}
 /*# sourceMappingURL=style.css.map */
